@@ -1,4 +1,5 @@
 *{
+	box-sizing: border-box;
 	
 }
 
@@ -19,26 +20,26 @@ h1{
 	font-size: 36px;
 	text-shadow: 2px 2px 2px black;
 	display: inline-block;
+	letter-spacing: 1px;
 }
 
-form {
-	padding: 15px 20px 15px 15px;
-	float: right;
-}
 
 input{
 	font-family: Calibri;
 	color: #828282;
 	font-size: 16px;
-	padding: 3px 3px 3px 6px;
-	width: 300px;
+	width: 480px;
+	padding: 3px;
+	margin-top: 15px;
+	margin-right: 20px;
+	float: right;
 }
 
 nav{
 	display: inline-block;
-	width: 220px;
+	width: 240px;
 	height: 340px;
-	padding: 20px;
+	padding: 40px 20px;
 	font-family: Calibri;
 	font-size: 24px;
 	font-weight: bold;
@@ -60,29 +61,24 @@ nav a:hover{
 	color: white;
 }
 
-ul{
-	list-style-type: none;
-	-webkit-padding-start: 20px;
-}
 
-li{
-	border-top: 1px solid #BDBDBD;
-	padding: 10px;
-	width: 200px;
-}
 
 #filter{
+	padding-top: 40px;
 	font-family: Calibri;
 	font-size: 18px;
 	font-weight: bold;
 	color: #664628;
 }
 
-main{
-	padding-top: 20px;
-	width: 70%;
-	height: 844px;
-	border: 1px solid black;
-	display: inline-block;
-	vertical-align: top;
+ul{
+	list-style-type: none;
+	-webkit-padding-start: 20px;
 }
+
+li{
+	border-top: 1px solid black;
+	padding: 10px;
+	width: 200px;
+}
+
