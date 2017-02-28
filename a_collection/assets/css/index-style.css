@@ -9,8 +9,13 @@ body{
 }
 
 #bar{
-	background-color: #C68C58;
+	background-color: #622A00;
 	vertical-align: top;
+}
+
+a{
+	text-decoration: none;
+	color: black;
 }
 h1{
 	margin: 0;
@@ -23,6 +28,13 @@ h1{
 	letter-spacing: 1px;
 }
 
+h1 a{
+	color: white;
+}
+
+h1 a:hover{
+	color: white;
+}
 
 input{
 	font-family: Calibri;
@@ -52,11 +64,6 @@ nav{
 	margin-bottom: 15px;
 }
 
-nav a{
-	text-decoration: none;
-	color: black;
-}
-
 nav a:hover{
 	color: white;
 }
@@ -82,6 +89,32 @@ li{
 	width: 200px;
 }
 
-.metadata{
+#featured_content{
+	font-family: Calibri;
+	float: left;
+
+}
+
+#featured_content p{
+	color:#828282;
+}
+
+#featured_content img{
+	border: 2px solid #8E7E7E7;
 	
+}
+
+#featured1, #featured2, #featured3, #featured4{
+	border: 5px solid #622A00;
+	background: white;
+	padding: 10px;
+}
+
+#featured1{
+	width: 506px;
+
+}
+
+#featured1 img{
+	width: 476px;
 }
