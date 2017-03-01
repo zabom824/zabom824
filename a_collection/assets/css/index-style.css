@@ -1,16 +1,13 @@
-*{
-	box-sizing: border-box;
-	
-}
-
 body{ 
 	margin: 0;
 	background-color: #ECE2C3;
+	box-sizing: border-box;
 }
 
 #bar{
 	background-color: #7C2F00;
 	vertical-align: top;
+	width: 100%
 }
 
 a{
@@ -24,8 +21,8 @@ h1{
 	color: white;
 	font-size: 36px;
 	text-shadow: 2px 2px 2px black;
-	display: inline-block;
 	letter-spacing: 1px;
+	width: 50%;
 }
 
 h1 a{
@@ -36,20 +33,19 @@ h1 a:hover{
 	color: white;
 }
 
-input{
+/*input{
 	font-family: Calibri;
 	color: #828282;
 	font-size: 16px;
-	width: 480px;
+	width: 25%;
 	padding: 3px;
 	margin-top: 15px;
 	margin-right: 20px;
 	float: right;
-}
+}*/
 
 nav{
-	display: inline-block;
-	width: 240px;
+	width: 100%;
 	height: 340px;
 	padding: 40px 20px;
 	font-family: Calibri;
@@ -71,7 +67,6 @@ nav a:hover{
 
 
 #filter{
-	padding-top: 40px;
 	font-family: Calibri;
 	font-size: 18px;
 	font-weight: bold;
@@ -86,13 +81,21 @@ ul{
 li{
 	border-top: 1px solid black;
 	padding: 10px;
-	width: 200px;
+	width: 100%;
+}
+
+.sidebar{
+	float: left;
+	display: inline-block;
 }
 
 #featured_content{
 	font-family: Calibri;
 	float: left;
-
+	display: inline-block;
+	width: 70%;
+	margin-top:none;
+	padding-top: 20px
 }
 
 #featured_content p{
@@ -108,13 +111,11 @@ li{
 	border: 5px solid #7C2F00;
 	background: white;
 	padding: 10px;
+	margin: 20px;
+	width: 35%;
+	float: right;
 }
 
-#featured1{
-	width: 506px;
-
-}
-
-#featured1 img{
-	width: 476px;
+#featured1 img, #featured2 video, #featured4 img{
+	width: 100%;
 }
