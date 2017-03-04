@@ -1,0 +1,43 @@
+html { 
+  background: url("http://aws.sv-cdn.com/site_assets/vv-vvvvvv-co/eb41e0125aa06/Viewr2015-12-01%20at%203.59.31%20PM%20153.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face{
+	font-family: "Fenix-Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Fenix-Regular"), url("Fenix-Regular.otf") format("opentype");
+}
+
+body{
+	margin: 20px;
+	width: 100%;
+	font-family: Fenix-Regular;
+	color: black;
+}
+
+h1 {
+	width: 80%;
+	padding-left: 25px;
+	padding-bottom: 0px;
+	font-size: 59px;
+	float: left;
+}
+
+#column1, #column2, #column3 {
+	font-size: 16px;
+	float: left;
+	display: inline-block;
+	width: 27%;
+	padding: 0px 20px 0px 20px;
+	line-height: 140%;
+	text-align: justify;
+}
+
+h3, h6{
+	float: right;
+}
