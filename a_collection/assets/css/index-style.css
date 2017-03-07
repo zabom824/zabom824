@@ -3,6 +3,7 @@ body{
 	box-sizing: border-box;
 	background: url("https://s-media-cache-ak0.pinimg.com/originals/d7/1c/99/d71c99a46c81395aa39d169ee4a221c3.jpg");
 	background-size: contain;
+	font-size: 0px;
 
 }
 
@@ -55,12 +56,9 @@ nav div {
 nav div:hover a, nav div:hover{
 	display: block;
 	color: white;
-	background-color: black;
+	background-color: darkred;
 }
 
-nav div:hover img{
-	opacity: 0.4;
-}
 
 nav a {
 	position: absolute;
