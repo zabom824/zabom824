@@ -37,10 +37,10 @@ nav{
 	padding:0px 18px 18px 18px;
 	width: 100%;
 	height: 800px;
-	font-family: Calibri;
-	font-size: 24px;
-	font-weight: bold;
+	font-family: Impact;
+	font-size: 40px;
 	background-color: black;
+	letter-spacing: 1px;
 }
 
 #nav1, #nav2, #nav3, #nav4, #nav5{
@@ -56,7 +56,11 @@ nav div {
 nav div:hover a, nav div:hover{
 	display: block;
 	color: white;
-	background: black;
+	background-color: black;
+}
+
+nav div:hover img{
+	opacity: 0.4;
 }
 
 nav a {
@@ -95,7 +99,7 @@ nav img {
 	display: inline-block;
 }
 
-#featured1 img, #featured2 video, #featured4 audio, #featured3 img, #featured5 img{
-	width: 100%;
+#featured_content img, #featured_content video, #featured_content audio{
 	border: 3px inset lightgrey;
+	width: 100%;
 }
