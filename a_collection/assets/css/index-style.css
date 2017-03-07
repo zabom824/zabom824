@@ -96,7 +96,6 @@ nav img {
 	width: 40%;
 	float: right;
 	box-sizing: border-box;
-	display: inline-block;
 }
 
 #featured_content img, #featured_content video, #featured_content audio{
