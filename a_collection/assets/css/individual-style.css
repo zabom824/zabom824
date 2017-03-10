@@ -1,14 +1,12 @@
-body{ 
-	margin: 0;
+*{
 	box-sizing: border-box;
-	background: url("https://s-media-cache-ak0.pinimg.com/originals/d7/1c/99/d71c99a46c81395aa39d169ee4a221c3.jpg");
-	background-size: contain;
-
 }
 
-a{
-	text-decoration: none;
-	color: black;
+body{ 
+	margin: 0;
+	font-size: 0;
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/d7/1c/99/d71c99a46c81395aa39d169ee4a221c3.jpg");
+	background-size: contain;
 }
 
 header{
@@ -17,29 +15,34 @@ header{
 	color: white;
 	font-size: 74px;
 	letter-spacing: 1px;
-    float: left;
     width: 100%;
     text-align: right;
-    padding:0px 91px 0px 0px;
-    margin: 0;
+    padding: 0px 91px 0px 0px;
+    position: fixed;
 }
 
-header a{
+header a, header a:hover{
 	color: white;
+	text-decoration: none;
 }
 
-header a:hover{
-	color: white;
+.sidebar{
+	padding-top: 90px;
+	float: left;
+	display: inline-block;
+	position: fixed;
+	width: 30%;
 }
 
 nav{
-	padding:0px 18px 18px 18px;
-	width: 100%;
-	height: 800px;
+	padding: 0px 18px 18px 18px;
+	height: 790px;
 	font-family: Impact;
 	font-size: 40px;
 	background-color: black;
 	letter-spacing: 1px;
+	float: left;
+	display: inline-block;
 }
 
 #nav1, #nav2, #nav3, #nav4, #nav5{
@@ -56,8 +59,8 @@ nav div:hover a, nav div:hover{
 	display: block;
 	color: white;
 	background-color: darkred;
+	text-decoration: none;
 }
-
 
 nav a {
 	position: absolute;
@@ -72,34 +75,37 @@ nav img {
 	width: 100%;
 }
 
-.sidebar{
-	float: left;
+main{
+	float: right;
 	display: inline-block;
-}
-
-#featured_image{
-	float: left;
-	display: inline-block;
-	width: 64%;
-	margin-top: 30px;
-	box-sizing: border-box;
-	border: 8px solid black;
+	width: 60%;
+	margin-top: 170px;
 }
 
 #featured_text{
 	font-family: Calibri;
 	background-color: white;
-	padding: 10px;
+	color: black;
+	padding: 20px;
 	width: 50%;
-}
+	font-size: 17px;
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-left: 80px;
 
-#featured_text p{
-	font-size: 18px;
 }
 
 #featured_image img, #featured_image video, #featured_image audio{
 	border: 3px inset lightgrey;
 	width: 100%;
-	background: white;
+}
+
+#featured_image{
+	border: 8px solid black;
 	padding: 30px;
+	background-color: white;
+	float: left;
+	display: inline-block;
+	width: 70%;
+	margin-bottom: 30px;
 }

@@ -1,15 +1,12 @@
-body{ 
-	margin: 0;
+*{
 	box-sizing: border-box;
-	background: url("https://s-media-cache-ak0.pinimg.com/originals/d7/1c/99/d71c99a46c81395aa39d169ee4a221c3.jpg");
-	background-size: contain;
-	font-size: 0px;
-
 }
 
-a{
-	text-decoration: none;
-	color: black;
+body{ 
+	margin: 0;
+	font-size: 0;
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/d7/1c/99/d71c99a46c81395aa39d169ee4a221c3.jpg");
+	background-size: contain;
 }
 
 header{
@@ -18,29 +15,34 @@ header{
 	color: white;
 	font-size: 74px;
 	letter-spacing: 1px;
-    float: left
-    width:100%;
+    width: 100%;
     text-align: right;
     padding:0px 91px 0px 0px;
-    margin: 0;
+    position: fixed;
 }
 
-header a{
+header a, header a:hover{
 	color: white;
+	text-decoration: none;
 }
 
-header a:hover{
-	color: white;
+.sidebar{
+	padding-top: 90px;
+	float: left;
+	display: inline-block;
+	position: fixed;
+	width: 30%;
 }
 
 nav{
-	padding:0px 18px 18px 18px;
-	width: 100%;
-	height: 800px;
+	padding: 0px 18px 18px 18px;
+	height: 790px;
 	font-family: Impact;
 	font-size: 40px;
 	background-color: black;
 	letter-spacing: 1px;
+	float: left;
+	display: inline-block;
 }
 
 #nav1, #nav2, #nav3, #nav4, #nav5{
@@ -57,8 +59,8 @@ nav div:hover a, nav div:hover{
 	display: block;
 	color: white;
 	background-color: darkred;
+	text-decoration: none;
 }
-
 
 nav a {
 	position: absolute;
@@ -73,29 +75,46 @@ nav img {
 	width: 100%;
 }
 
-.sidebar{
+main{
 	float: left;
 	display: inline-block;
+	width: 76%;
+	margin-top: 8%;
+	margin-left: 22%;
 }
 
-#featured_content{
-	float: left;
-	display: inline-block;
-	width: 75%;
-	padding-top: 20px
-}
-
-#featured1, #featured2, #featured3, #featured4, #featured5{
+.images{
+	width: 46%;
 	border: 8px solid black;
-	background: white;
 	padding: 30px;
+	background-color: white;
+	display: inline-block;
 	margin: 20px;
-	width: 40%;
-	float: right;
-	box-sizing: border-box;
+	float: left;
 }
 
-#featured_content img, #featured_content video, #featured_content audio{
+.images img, .images video, .images audio{
 	border: 3px inset lightgrey;
 	width: 100%;
+	display: inline-block;
+}
+
+#one{
+	float: left;
+	width: 50%;
+	margin-top: 21px;
+}
+
+.block{
+	border: 8px solid black;
+	padding: 30px;
+	background-color: white;
+	display: inline-block;
+	margin: 20px;
+}
+
+.block img, .block audio{
+	border: 3px inset lightgrey;
+	width: 400px;
+	display: inline-block;
 }
