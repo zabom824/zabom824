@@ -1,3 +1,98 @@
-p{
-	font-family: script;
+*{
+	box-sizing: border-box;
+}
+
+html{
+	background-color:#f8e9a8;
+}
+
+@font-face {
+    font-family: 'discipuli_britannicabold';
+    src: url('discipuli-britannica.bold-webfont.woff2') format('woff2'),
+         url('discipuli-britannica.bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	font-family: 'discipuli_britannicabold';
+	margin: auto;
+}
+
+#pipe p, #pipe_gif p, #pipe_inverse{
+	text-align: center;
+	margin-top: 0px;
+}
+
+@media (min-width: 990px) and (max-width: 1442px) {
+	html{
+		background-color: #071657;
+		color: white;
+		position: absolute;
+		top: 10%;
+		left: 25%;
+		width: 50%;
+	}
+	#pipe_inverse{
+		visibility: visible;
+		width: 100%;
+		margin: auto;
+		font-size: 38px;
+	}
+	#pipe_inverse img{
+		width: 100%;
+		display: inline-block;
+	}
+	#pipe_gif, #pipe{
+		display: none;
+	}
+}
+
+@media (min-width: 760px) and (max-width: 989px) {
+	html{
+		background-color: #f8e9a8;
+		color: black;
+		position: absolute;
+		width: 50%;
+		top: 10%;
+		left: 25%;
+	}
+	#pipe{
+		visibility: visible;
+		width: 100%;
+		margin: auto;
+		font-size: 28px;
+	}
+	#pipe img{
+		width: 100%;
+		display: inline-block;
+	}
+	#pipe_inverse, #pipe_gif{
+		display: none;
+	}
+}
+
+@media (min-width: 100px) and (max-width: 759px) {
+	html{
+		background-color: #f8e9a8;
+		color: black;
+		position: absolute;
+		width: 50%;
+		top: 10%;
+		left: 25%;
+	}
+	#pipe_gif{
+		visibility: visible;
+		width: 100%;
+		margin: auto;
+		font-size: 18px;
+	}
+	#pipe_gif img{
+		width: 100%;
+		display: inline-block;
+	}
+	#pipe, #pipe_inverse{
+		display: none;
+	}
 }
