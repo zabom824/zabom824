@@ -1,0 +1,46 @@
+html{
+	width: 100%;
+}
+
+body{
+	width: 90%;
+	height: 600px;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+p{
+	color: darkgrey;
+	font-size: 16px;
+	width: 25%;
+}
+
+#square1{
+	width: 40%;
+	height: 500px;
+	background-color: #FFF100;
+	display: inline-block;
+	float: left;
+}
+
+#square2{
+	width: 40%;
+	height: 500px;
+	background-color: #3D00B2;
+	display: inline-block;
+	float: left;
+}
+
+#square3{
+	width: 25%;
+	height: 325px;
+	background-color: #8A00AC;
+	position: absolute;
+	top: 53%;
+	left: 47%;
+	opacity: .5;
+}
+
+#squares{
+	margin-left: 25%; 
+}
