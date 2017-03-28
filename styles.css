@@ -4,6 +4,7 @@
 
 html{
 	background-color: black;
+	margin: 2%;
 }
 
 
@@ -16,9 +17,55 @@ html{
 }
 
 body{
-	color: white;
+	color: #65EE00;
 	font-family: 'calalight';
 	letter-spacing: 1px;
 	
 }
 
+nav{
+	float: left;
+	display: inline-block;
+	width: 30%;
+}
+
+.title{
+	font-size: 42px;
+	padding-bottom: 1.5%;
+	margin-top: 5%;
+}
+
+.class{
+	margin-bottom: 12%;
+}
+
+li{
+	list-style-type: none;
+	padding-bottom: 1.5%;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #65EE00;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+header{
+	float: left;
+	display: inline-block;
+	width: 52%;
+}
+
+h1{
+	font-size: 100px;
+	text-align: center;
+}
+
+h2{
+	font-size: 42px;
+	text-align: center;
+}
