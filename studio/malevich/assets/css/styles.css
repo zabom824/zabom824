@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	background-color: white;
+	margin: 0;
+	font-size: 0;
+}
+
+body{
+	background-color: #D4C7BA;
+	width: 48%;
+	height: 100%;
+	position: fixed;
+	margin-top: 0;
+	top:0px;
+	left: 26%;
+}
+
+#row1{
+	background-color: black;
+	width: 17%;
+	height: 34%;
+	position: fixed;
+	top: 5.5%;
+	left: 42%;
+}
+
+#outline{
+	border: 1px solid #bfb2a6;
+	width: 40%;
+	height: 13%;
+	position: fixed;
+	top: 46%;
+	left: 30%;
+}
+
+#rectangle{
+	background-color: black;
+	width: 16%;
+	height: 13%;
+	position: fixed;
+	top: 46%;
+	left: 51%;
+}*
+
+#circle{
+	background-color: black;
+	width: 9.5%;
+	height: 20%;
+	border-radius: 100%;
+	position: fixed;
+	display: inline-block;
+	top: 65%;
+	left: 31%;
+}
+
+#fragments{
+	width: 15%;
+	position: fixed;
+	top: 60%;
+	left: 47%;
