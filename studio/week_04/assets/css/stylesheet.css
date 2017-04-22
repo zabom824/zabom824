@@ -1,0 +1,23 @@
+html{
+	width: 100%;
+	font-size:0;
+	box-sizing: border-box;
+}
+
+img{
+	border:1px solid black;
+}
+
+#img1{
+	width: 60%;
+	margin: 5% 0% 5% 5%;
+	float: left;
+	display: inline-block;
+}
+
+#img2{
+	width: 25%;
+	float: left;
+	margin-top: 5%;
+	display: inline-block;
+}
