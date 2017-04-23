@@ -1,0 +1,44 @@
+html{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+h3{
+	margin: 5% 0% 0% 5%;
+}
+
+#text{
+	width: 40%;	
+	margin: 5% 5% 5% 15%;
+	text-align: justify;
+}
+
+li{
+	padding-bottom: 1%;
+}
+
+#images{
+	width: 70%;
+	margin-left: 5%;
+}
+
+#column1{
+	width: 30%;
+	margin-left: 5%;	
+	float: left;
+	display: inline-block;
+}
+
+#column2{
+	width: 55%;
+	margin-left: 5%;
+	float: left;
+	display: inline-block;
+}
+
+#column2 p{
+	margin-top: 13%;
+	width: 89%;
+	text-align: justify;
+}
+
