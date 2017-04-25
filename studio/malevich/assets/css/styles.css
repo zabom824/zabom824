@@ -2,63 +2,93 @@
 	box-sizing: border-box;
 }
 
-html, body {
-	width: 100%;
-	height: 100%;
+html{
 	background-color: white;
 	margin: 0;
 	font-size: 0;
 }
 
-#container{
-	width: 48%;
-	height: 100%;
-	background-color: #D4C7BA;
+body{
+	width: 100%;
+	margin: 0;
+	top:0;
 	position: fixed;
-	top: 0%;
-	left: 26%;
 }
 
-#row1{
+#container1{
+	font-size: 18px;
+	color: grey;
+	font-family: sans-serif;
+	width: 41%;
+	float: left;
+	display: inline-block;
+	padding: 0% 2%;
+	line-height: 140%;
+}
+
+#container1 img{
+	width: 60%;
+	margin-left: 15%;
+}
+
+#container2{
+	background-color: #D4C7BA;
+	width: 50%;
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+
+#container2:after{
+	padding-top: 100%;
+	display: block;
+	content: '';
+}
+
+#square{
 	background-color: black;
-	width: 17%;
-	height: 34%;
-	position: fixed;
+	width: 30%;
+	height: 30%;
+	position: absolute;
 	top: 5.5%;
-	left: 42%;
+	left: 30%;
 }
 
 #outline{
 	border: 1px solid #bfb2a6;
-	width: 40%;
+	width: 80%;
 	height: 13%;
-	position: fixed;
+	position: absolute;
 	top: 46%;
-	left: 30%;
+	left: 7%;
 }
 
 #rectangle{
 	background-color: black;
-	width: 16%;
+	width: 30%;
 	height: 13%;
-	position: fixed;
+	position: absolute;
 	top: 46%;
 	left: 51%;
-}*
+}
 
 #circle{
 	background-color: black;
-	width: 9.5%;
-	height: 20%;
+	width: 18%;
+	height: 18%;
 	border-radius: 100%;
-	position: fixed;
+	position: absolute;
 	display: inline-block;
 	top: 65%;
-	left: 31%;
+	left: 10%;
 }
 
 #fragments{
-	width: 15%;
-	position: fixed;
+	width: 30%;
+	position: absolute;
 	top: 60%;
 	left: 47%;
+}
+
+/*http://stackoverflow.com/questions/12121090/responsively-change-div-size-keeping-aspect-ratio
+*/
