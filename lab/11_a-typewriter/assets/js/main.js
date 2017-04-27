@@ -1,6 +1,4 @@
 var container = document.getElementById('container');
-
-
 var letters = {
     KeyA: {
         url:"assets/media/svg/Asset1.svg"
@@ -87,9 +85,7 @@ document.addEventListener('keydown', function(event){
     if (event.keyCode >= 65 && event.keyCode <= 90) {
 
         var img = document.createElement('img');
-        
         console.log(letters[event.code]['url']);
-
         img.src = letters[event.code]['url'];
         
         container.appendChild(img);
