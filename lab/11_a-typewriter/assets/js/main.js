@@ -96,6 +96,12 @@ document.addEventListener('keydown', function(event){
         container.appendChild(div);
     } else if (event.keyCode == 8) {
         container.removeChild(container.lastChild);
+    } else if (event.keyCode == 49) {
+        document.body.style.backgroundColor = "lemonChiffon";
+    } else if(event.keyCode == 50){
+        document.body.style.backgroundColor = "CornflowerBlue";
+    }else if(event.keyCode == 51){
+        document.body.style.backgroundColor = "lightGrey"
     }
 
     }
