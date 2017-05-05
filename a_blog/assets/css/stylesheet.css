@@ -13,7 +13,7 @@ html{
 	max-width: 100%;
 	margin: 0;
 }
-
+/*header__________________________________________*/
 header{
 	width: 90%;
 	position: fixed;
@@ -43,6 +43,7 @@ h1{
 	padding: 0 0 0 10%;
 }
 
+/*gradient___________________________________________________________*/
 #homegradient{
 	background: linear-gradient(rgba(40,120,77,1), rgba(40,120,77,0));
 	position: fixed;
@@ -52,6 +53,29 @@ h1{
 	width: 49.4%;
 }
 
+
+main{
+	display: inline-block;
+	width: 60%;
+	margin: 7% 0% 0% 25%;
+	padding: 5% 5% 5% 5%;
+	font-size: 18px;
+}
+
+section{
+	margin-bottom: 29%;
+}
+
+
+
+span{
+	color:#4C001F;
+}
+
+#blog{
+}
+
+/*navigation between posts_____________________________*/
 #p1, #p2{
 	float: left;
 	display: inline-block;
@@ -74,29 +98,10 @@ h1{
 	left: 85%;
 }
 
-main{
-	display: inline-block;
-	width: 60%;
-	margin: 7% 0% 0% 25%;
-	padding: 5% 5% 5% 5%;
-	font-size: 18px;
-}
-
-section{
-	margin-bottom: 29%;
-}
-
+/*posts_____________________________________________________________*/
 img{
 	width: 100%;
 	padding-bottom: 3%;
-}
-
-span{
-	color:#4C001F;
-}
-
-#blog{
-
 }
 
 #postagradient{
