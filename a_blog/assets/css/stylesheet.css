@@ -5,7 +5,7 @@
 html{
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #28784D;
+	background-color: #1070FF;
 	font-size: 0;
 }
 
@@ -20,12 +20,12 @@ header{
 	top: 0;
 	color: black;
 	padding: 1% 0% 4% 6%;
-	background-color: #28784D; 
+	background-color: #1070FF; 
 }
 
 a{
 	text-decoration-line: none;
-	color:#003F1D;
+	color:#012B68;
 	font-size: 18px;
 	box-sizing: none;
 	margin-left: 5%;
@@ -57,13 +57,13 @@ h1{
 main{
 	display: inline-block;
 	width: 60%;
-	margin: 7% 0% 0% 25%;
+	margin: 0% 0% 0% 25%;
 	padding: 5% 5% 5% 5%;
 	font-size: 18px;
 }
 
 section{
-	margin-bottom: 29%;
+	margin: 10% 0%;
 }
 
 
@@ -72,18 +72,14 @@ span{
 	color:#4C001F;
 }
 
-#blog{
-}
-
 /*navigation between posts_____________________________*/
 #p1, #p2{
 	float: left;
 	display: inline-block;
-	color:#003F1D;
+	color:#012B68;
 	font-size: 18px;
-	border:1px solid #003F1D;
+	border:1px solid #012B68;
 	padding: 2%;
-	background-color: #63957A;
 }
 
 #p1{
@@ -104,33 +100,15 @@ img{
 	padding-bottom: 3%;
 }
 
-#postagradient{
-	background: linear-gradient(rgba(76,0,31,0), rgba(76,0,31,1));
-	position: fixed;
-	height: 2%;
-	top:24.256%;
-	left:30.25%;
-	width: 49.4%;
-}
-
-#postbgradient{
-	background: linear-gradient(rgba(96,48,0,0), rgba(96,48,0, 1));
-	position: fixed;
-	height: 2%;
-	top:24.256%;
-	left:30.25%;
-	width: 49.4%;
-}
-
 #posta{
-	background-color: #4C001F;
+	background-color: #FF4100;
 	color: white;
 	padding: 4%;
 }
 
 
 #postb{
-	background-color: #603000;
+	background-color: #DE0052;
 	color: white;
 	padding: 4%;
 }
@@ -141,4 +119,19 @@ h3{
 
 script{
 	display: all;
+}
+
+#blog{
+	width: 100%;
+}
+
+#post1prev, #post2prev, #post3prev, #post4prev, #post5prev, #post6prev, #post7prev, #post8prev{
+	float: left;
+	display: inline-block;
+	border: 1px solid black;
+	width: 40%;
+	padding: 2%;
+	font-size: 14px;
+	color: white;
+	margin: 2%;
 }
