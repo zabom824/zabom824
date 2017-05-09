@@ -4,35 +4,21 @@
 
 html{
 	width: 100%;
+}
+
+
+body{
 	font-family: 'Open Sans', sans-serif;
 	background-color: #1070FF;
 	font-size: 0;
-}
-
-#wrapper{
-	max-width: 100%;
-	margin: 0;
+	position: relative;
 }
 /*header__________________________________________*/
 header{
-	width: 90%;
+	width: 100%;
 	position: fixed;
-	top: 0;
 	color: black;
-	padding: 1% 0% 4% 6%;
 	background-color: #1070FF; 
-}
-
-a{
-	text-decoration-line: none;
-	color:#012B68;
-	font-size: 18px;
-	box-sizing: none;
-	margin-left: 5%;
-}
-
-a:hover{
-	color: white;
 }
 
 h1{
@@ -43,33 +29,40 @@ h1{
 	padding: 0 0 0 10%;
 }
 
-/*gradient___________________________________________________________*/
-#homegradient{
-	background: linear-gradient(rgba(40,120,77,1), rgba(40,120,77,0));
-	position: fixed;
-	height: 2%;
-	top:25.5%;
-	left:30.25%;
-	width: 49.4%;
+#navigation{
+	float: right;
+	margin-right: 4%;
 }
 
-
-main{
-	display: inline-block;
-	width: 60%;
-	margin: 0% 0% 0% 10%;
-	padding: 5% 5% 5% 5%;
+a{
+	text-decoration-line: none;
+	color:#012B68;
 	font-size: 18px;
 }
 
-section{
-	margin: 10% 0%;
+a:hover{
+	color: white;
 }
 
-
+/*__________________________________main*/
+main{
+	display: inline-block;
+	width: 60%;
+	font-size: 18px;
+	position: absolute;
+	top: 150px;
+	left: 25%;
+}
 
 span{
 	color:#4C001F;
+}
+
+script{
+	display: all;
+}
+
+#post1prev, #post2prev, #post3prev, #post4prev, #post5prev, #post6prev, #post7prev, #post8prev{
 }
 
 /*navigation between posts_____________________________*/
@@ -90,7 +83,7 @@ span{
 #p2{
 	position: fixed;
 	top:40%;
-	left: 85%;
+	left: 88%;
 }
 
 /*posts_____________________________________________________________*/
@@ -114,23 +107,4 @@ img{
 
 h3{
 	text-align: center;
-}
-
-script{
-	display: all;
-}
-
-#blog{
-	width: 100%;
-}
-
-#post1prev, #post2prev, #post3prev, #post4prev, #post5prev, #post6prev, #post7prev, #post8prev{
-	float: left;
-	display: inline-block;
-	border: 1px solid black;
-	width: 40%;
-	padding: 2%;
-	font-size: 14px;
-	color: white;
-	margin: 2%;
 }
