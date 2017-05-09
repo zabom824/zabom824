@@ -66,11 +66,24 @@ script{
 }
 
 section{
-	margin-bottom: 20%;
+	margin-bottom: 35%;
 }
 
 #bio{
 	display: block;
+}
+
+#contact{
+	float: right;
+	text-align: center;
+	margin-right: 26%;
+}
+
+li{
+	list-style-type: none;
+}
+
+#blog{
 }
 
 #post1prev, #post2prev, #post3prev, #post4prev, #post5prev, #post6prev, #post7prev{
