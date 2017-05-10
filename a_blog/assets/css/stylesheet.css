@@ -86,23 +86,13 @@ li{
 #blog{
 }
 
-#post1prev, #post2prev, #post3prev, #post4prev, #post5prev, #post6prev, #post7prev{
+#post1prev, #post2prev, #post3prev, #post4prev, #post5prev, #post6prev, #post7prev, #post8prev{
 	width: 30%;
 	padding: 2%;
 	font-size: 14px;
 	border: 1px solid black;
 	margin: 1%;
-	float: left;
-	line-height: 130%;
-}
-
-#post8prev{
 	display: inline-block;
-	width: 30%;
-	padding: 2%;
-	font-size: 14px;
-	border: 1px solid black;
-	margin: 1%;
 	line-height: 130%;
 }
 
