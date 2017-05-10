@@ -63,6 +63,7 @@ span{
 
 script{
 	display: all;
+
 }
 
 section{
@@ -126,6 +127,7 @@ img{
 	background-color: #FF2237;
 	color: white;
 	padding: 4%;
+	margin: 0;
 }
 
 
@@ -133,6 +135,7 @@ img{
 	background-color: #FF5900;
 	color: white;
 	padding: 4%;
+	margin: 0;
 }
 
 h3{
