@@ -144,7 +144,7 @@ h3{
 }
 
 /*___________________________________________________responsive*/
-@media(min-width: 300px) and (max-width: 599px){
+@media(min-width: 300px) and (max-width: 499px){
 	h1 {
 		font-size: 26px;
 		top: 0;
@@ -178,6 +178,46 @@ h3{
 
 	#contact{
 		position: absolute;
-		left: -11%;
+		left: -9%;
+		margin-left: 1%;
+	}
+}
+/*_______________________________________________________*/
+@media(min-width: 500px) and (max-width: 699px){
+	h1 {
+		font-size: 40px;
+		top: 0;
+		left: 0;
+	}
+	header{
+		position: absolute;
+
+	}
+	#navigation{
+		display: none;
+	}
+
+	main{
+		position: absolute;
+		left: 0;
+		top:60px;
+		width: 100%;
+		padding: 2%;
+	}
+
+#post1prev, #post2prev, #post3prev, #post4prev, #post5prev, #post6prev, #post7prev, #post8prev{
+		width: 70%;
+		padding: 2%;
+		font-size: 14px;
+		border: 1px solid black;
+		margin: 4% 15%;
+		display: block;
+		line-height: 130%;
+	}
+
+	#contact{
+		position: absolute;
+		left: 20%;
+		margin: 0% 0% 10% 0%;
 	}
 }
