@@ -256,4 +256,5 @@ img{
 	top: 20%;
 	left: 0%;
 	display: none;
+	z-index: 1;
 }
