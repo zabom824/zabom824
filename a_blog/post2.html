@@ -6,6 +6,7 @@
 	<title>WDFT?--McDonald's</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 	<body>
@@ -32,9 +33,22 @@
 			<h3>McDonald&#39;s</h3>
 			<p>Ah, food. We can't live without it...literally. Since the struggle for survival has long since been won here in North America and in other developed countries, food has become so much more than an essential in our daily lives. It has become a pastime, a friend, a source of entertainment, and a main ingredient in the success of many multi-million dollar fast food chains. Notice how I said "a main" instead of <q>THE main</q>. This is due to there being several other factors that contribute to the success of all these big league fast-food chains- McDonald&#39;s, Wendy&#39;s, Subway, you name it. In today's world, these factors include identity design, branding, advertising, etc.</p>
 
-			<p>I&#39;m not gonna lie, McDonald&#39;s makes some <span>damn good fries</span>. And some seriously killer <span>McNuggets</span> (seriously&mdash;a girl named Stacy Irvine nearly lost her life after collapsing from eating nothing but goddamn McNuggets for fifteen years!) Yes, fast food tastes good, and I&#39;m not one of those health-obsessed people that shun the existence of fast food. I&#39;m here to talk about design. And boy, does McDonald&#39;s have an iconic design. In fact, in 2014 McDonald&#39;s was ranked the 6th most important brand in the world.</p>
+			<p>I&#39;m not gonna lie, McDonald&#39;s makes some <span class="trigger">damn good fries</span><img src="assets/media/fries.jpg">. And some seriously killer <span class="trigger">McNuggets</span><img src="assets/media/mcnuggets.jpg" style="top: 60%"> (seriously&mdash;a girl named Stacy Irvine nearly lost her life after collapsing from eating nothing but goddamn McNuggets for fifteen years!) Yes, fast food tastes good, and I&#39;m not one of those health-obsessed people that shun the existence of fast food. I&#39;m here to talk about design. And boy, does McDonald&#39;s have an iconic design. In fact, in 2014 McDonald&#39;s was ranked the 6th most important brand in the world.</p>
 
-			<p>The identity of McDonald&#39;s is actually pretty neutral. There isn&#39;t really much bias in a <span>yellow double arch against a red background</span>. Yes, red is sometimes used by brands to entice hunger, but that doesn&#39;t bother me. It&#39;s the other things that the brand does with its marketing that are not too honest. For example, when was the last time you&#39;ve seen an ad for a McDonald&#39;s salad in the US? They appear far less frequently than ads for the latest version of the cheeseburger or breakfast sandwich. Instead of making people more interested in buying healthier alternatives, McDonald&#39;s tries to present their most popular, greasy foods by including buzzwords and phrases like <span><q>no artificial colors</q></span>, and <q>100% natural</q>. The problem is that this meat is then covered in fat and fried, taking away any health benefits it may have had.</p>
+			<p>The identity of McDonald&#39;s is actually pretty neutral. There isn&#39;t really much bias in a <span class="trigger">yellow double arch against a red background</span><img src="assets/media/yellow_arch.jpg">. Yes, red is sometimes used by brands to entice hunger, but that doesn&#39;t bother me. It&#39;s the other things that the brand does with its marketing that are not too honest. For example, when was the last time you&#39;ve seen an ad for a McDonald&#39;s salad in the US? They appear far less frequently than ads for the latest version of the cheeseburger or breakfast sandwich.</p>
+
+			<p>Instead of making people more interested in buying healthier alternatives, McDonald&#39;s tries to present their most popular, greasy foods by including buzzwords and phrases like <span class="trigger"><q>no artificial colors</q></span><img src="assets/media/no_artificial.jpg">, and <q>100% natural</q>. The problem is that this meat is then covered in fat and fried, taking away any health benefits it may have had.</p>
+
+		<script>
+$('.trigger').hover( 
+	function(){
+		$(this).siblings('img').css('display', 'block');
+	}, function() {
+		$(this).siblings('img').css('display', 'none');
+	}
+);
+</script>
+
 		</section>
 		<div class="fb-comments" data-href="http://scairytale.com/a_blog/post1" data-width="800px" data-numposts="5" data-colorscheme="light"></div>	
 		</main>

@@ -6,6 +6,7 @@
 	<title>WDFT?--Information Is Beautiful</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 	<body>
@@ -28,19 +29,31 @@
 		<section id="posta">
 		<h5>5/1/17</h5>
 		<h3>Information Is Beautiful</h3>
-			<p>Information design is (or in theory should be) the most unbiased and honest subcategory of design. In its pure form, information design aims to present data in a clear, organized, and engaging way. One designer that specializes in this field is <span>David McCandless</span>. David is an author, writer, data-journalist and designer from London who creates sleek, interactive infographs based on his own in-depth research.</p>
+			<p>Information design is (or in theory should be) the most unbiased and honest subcategory of design. In its pure form, information design aims to present data in a clear, organized, and engaging way. One designer that specializes in this field is <span class="trigger">David McCandless</span><img src="assets/media/david_mccandless.jpg">. David is an author, writer, data-journalist and designer from London who creates sleek, interactive infographs based on his own in-depth research.</p>
 
 			<p>The goal of David and his team of designers and researchers is, as stated in the Our Mission section of the About page of informationisbeautiful.net, <q>...to help everyone make better, clearer, more informed decisions about the world</q>. Now here is a goal that perfectly illustrates the two main themes of this blog: Honesty and Purpose. <q>...we base all our graphics & visualizations on facts & data. Illustrate multiple perspectives (even we don&#39;t agree with them)</q>, continues the section.</p>
 
 			<p>I don&#39;t want to jump to conclusions and say that this text has restored my faith in graphic design, but paired with the actual graphs themselves it&#39;s pretty darn close. It&#39;s no wonder that his two books, Information is Beautiful and Knowledge is Beautiful, were published across the world in multiple languages. Just see for yourself:</p>
 
-			<p>These <span>first two images</span> are screenshots of the interactive Snake Oil Supplements visualization. It is both eye-catching and simple--the information is presented in bubbles of cool colors with specks of hot here and there. Everything you need to know to understand the chart (including the scale and filter), is given in a clear, cohesive way. The visualizations even resemble Snake Oil. Clicking on each bubble reveals notes on each supplement, making for a quick and informative read.</p>
+			<p>This <span class="trigger">first image</span><img src="assets/media/first_two_images2.jpg"> is a screenshot of the interactive Snake Oil Supplements visualization. It is both eye-catching and simple--the information is presented in bubbles of cool colors with specks of hot here and there. Everything you need to know to understand the chart (including the scale and filter), is given in a clear, cohesive way. The visualizations even resemble Snake Oil. Clicking on each bubble reveals notes on each supplement, making for a quick and informative read.</p>
 
 			<p>Now, let&#39;s talk purpose. This chart was made to inform people on how valid the health benefits of certain supplements are. There is no bias here, only in-depth research made simple through creative form. </p>
 
-			<p>This <span>next image</span> is of the visualization titled Mountains Out of Mole Hills. Each hill represents the intensity of the hype of the given topic, brought on by mentions in media outlets. Once again, the shapes, colors, and form are enticing with their playful simplicity. And, once again, the way the information is represented relates to the title of it (the information is literally in the shape of mountains).</p>
+			<p>This <span class="trigger">next image</span><img src="assets/media/next_image.jpg"> is of the visualization titled Mountains Out of Mole Hills. Each hill represents the intensity of the hype of the given topic, brought on by mentions in media outlets. Once again, the shapes, colors, and form are enticing with their playful simplicity. And, once again, the way the information is represented relates to the title of it (the information is literally in the shape of mountains).</p>
 
 			<p>Information truly is beautiful, especially in the hands of David McCandless.</p>
+
+			<img src="assets/media/david_mccandless.jpg">
+
+<script>
+$('.trigger').hover( 
+	function(){
+		$(this).siblings('img').css('display', 'block');
+	}, function() {
+		$(this).siblings('img').css('display', 'none');
+	}
+);
+</script>
 
 		</section>	
 		<div class="fb-comments" data-href="http://scairytale.com/a_blog/post1" data-width="800px" data-numposts="5" data-colorscheme="light"></div>	

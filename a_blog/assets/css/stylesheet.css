@@ -119,10 +119,6 @@ li{
 }
 
 /*posts_____________________________________________________________*/
-img{
-	width: 100%;
-	padding-bottom: 3%;
-}
 
 #posta{
 	background-color: #FF2237;
@@ -250,4 +246,14 @@ h3{
 		left: 10%;
 		width: 100%;
 	}
+}
+
+/*_________________________________________________________img hover*/
+
+img{
+	position: fixed;
+	width: 20%;
+	top: 20%;
+	left: 3%;
+	display: none;
 }
