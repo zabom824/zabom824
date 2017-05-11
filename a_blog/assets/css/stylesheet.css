@@ -143,3 +143,41 @@ h3{
 	text-align: center;
 }
 
+/*___________________________________________________responsive*/
+@media(min-width: 300px) and (max-width: 599px){
+	h1 {
+		font-size: 26px;
+		top: 0;
+		left: 0;
+	}
+	header{
+		position: absolute;
+
+	}
+	#navigation{
+		display: none;
+	}
+
+	main{
+		position: absolute;
+		left: 0;
+		top:60px;
+		width: 100%;
+		padding: 2%;
+	}
+
+#post1prev, #post2prev, #post3prev, #post4prev, #post5prev, #post6prev, #post7prev, #post8prev{
+		width: 93%;
+		padding: 2%;
+		font-size: 14px;
+		border: 1px solid black;
+		margin: 2%;
+		display: block;
+		line-height: 130%;
+	}
+
+	#contact{
+		position: absolute;
+		left: -11%;
+	}
+}
