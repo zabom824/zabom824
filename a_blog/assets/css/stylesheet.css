@@ -221,3 +221,33 @@ h3{
 		margin: 0% 0% 10% 0%;
 	}
 }
+/*__________________________________________________________________*/
+@media(min-width: 700px) and (max-width: 999px){
+	h1 {
+		font-size: 60px;
+		top: 0;
+		left: 0;
+	}
+	#navigation{
+		display: none;
+	}
+
+	main{
+	}
+
+#post1prev, #post2prev, #post3prev, #post4prev, #post5prev, #post6prev, #post7prev, #post8prev{
+		width: 70%;
+		padding: 2%;
+		font-size: 14px;
+		border: 1px solid black;
+		margin: 4% 15%;
+		display: block;
+		line-height: 130%;
+	}
+
+	#contact{
+		position: absolute;
+		left: 10%;
+		width: 100%;
+	}
+}
