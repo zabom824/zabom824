@@ -68,16 +68,19 @@ script{
 }
 
 section{
-	margin-bottom: 38%;
+	padding-top: 15%;
+	margin:50% 0% 50% 0%;
+}
+
+#about{
 }
 
 #bio{
-	display: block;
+
 }
 
 #contact{
 	float: right;
-	text-align: center;
 	margin-right: 26%;
 }
 
